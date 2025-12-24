@@ -1,0 +1,4 @@
+# This file tells GitHub Pages to not process the site with Jekyll
+# This is required for Next.js static exports to work properly
+# Files and folders starting with _ (like _next) will be served correctly
+

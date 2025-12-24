@@ -21,6 +21,15 @@ static-build/
 └── _next/              # Next.js assets (JS, CSS, images)
 ```
 
+## Important: GitHub Pages Setup
+
+**CRITICAL**: The `.nojekyll` file is included in this directory. This file is **required** for GitHub Pages to serve files and folders starting with `_` (like `_next`). 
+
+**If you're using GitHub Pages:**
+1. Make sure the `.nojekyll` file is uploaded to your repository root
+2. Without this file, GitHub Pages will ignore the `_next` folder and assets won't load
+3. The file should be at the same level as `index.html`
+
 ## Hosting Instructions
 
 ### Option 1: Static Hosting Services
